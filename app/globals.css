@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #25272a;
+  --font-rale-way: "Raleway", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-rale-way);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
