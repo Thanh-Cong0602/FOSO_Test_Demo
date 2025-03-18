@@ -9,7 +9,7 @@ interface BreadcrumbProps {
 
 export default function Breadcrumb({ items }: BreadcrumbProps) {
   return (
-    <nav className=" relative z-[-1] flex flex-wrap text-gray-600" aria-label="breadcrumb ">
+    <nav className=" relative flex flex-wrap text-gray-600" aria-label="breadcrumb ">
       <ol className="flex flex-wrap items-center space-x-2">
         {items.map((item, index) => (
           <li
@@ -18,8 +18,10 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
           >
             <a
               href={item.href}
-              className={`text-sm font-normal leading-[150%] ${
-                item.isCurrentPage ? "cursor-default font-semibold text-[#050505]" : "text-[#17181A] hover:underline"
+              className={`text-sm font-normal leading-1.5 ${
+                item.isCurrentPage
+                  ? "cursor-default font-semibold text-black-500"
+                  : "text-[#17181A] hover:underline"
               }`}
             >
               {item.name}
