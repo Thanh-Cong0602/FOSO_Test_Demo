@@ -3,4 +3,5 @@ export const pathName = {
   SOLUTION: "#",
   RESOURCES: "/",
   CONTACT: "#",
+  BLOG_DETAILS: "/blog-details",
 };
