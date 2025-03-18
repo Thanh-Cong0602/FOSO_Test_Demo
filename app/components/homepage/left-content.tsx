@@ -7,7 +7,7 @@ import ButtonComponent from "../fields/button-custom";
 const LeftContent = () => {
   return (
     <div className="grid w-full gap-6 lg:max-w-[1042px]">
-      <div className="text-2xl font-extrabold leading-6 text-[#050505] md:text-4xl md:leading-2">Tất cả bài viết</div>
+      <div className="text-2xl font-extrabold leading-6 text-black-500 md:text-4xl md:leading-2">Tất cả bài viết</div>
 
       <div className=" grid gap-6 md:gap-12">
         <div

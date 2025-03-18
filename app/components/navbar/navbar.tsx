@@ -5,8 +5,6 @@ import ArrowUpRightIcon from "@/public/ArrowUpRight.svg";
 import ChevronDownIcon from "@/public/CaretDown.svg";
 import FOSO_Logo from "@/public/images/FOSO_Logo.png";
 import Icon_Country from "@/public/images/Icon_country.png";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { MobileNavbar } from "./mobile-navbar";
@@ -43,7 +41,7 @@ const Navbar = () => {
                     <p className={pathname === item.href ? "font-bold" : ""}>{item.title}</p>
                   )}
                   {pathname === item.href && (
-                    <span className="absolute bottom-0 size-1.5 rounded-full bg-[#1AD598]"></span>
+                    <span className="absolute bottom-0 size-1.5 rounded-full bg-turquoise-400"></span>
                   )}
                 </a>
               </li>
@@ -56,7 +54,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-2">
-          <div className="flex h-10 cursor-pointer items-center gap-3 rounded-10 border border-solid border-gray-300 bg-gradient-to-t from-[rgba(9,9,11,0.05)] to-[rgba(9,9,11,0.1)] px-3 py-2">
+          <div className="flex h-10 cursor-pointer items-center gap-3 rounded-10 border border-solid border-gray-200 bg-gradient-to-t from-[rgba(9,9,11,0.05)] to-[rgba(9,9,11,0.1)] px-3 py-2">
             <Image src={Icon_Country} alt="Icon Country" />
             <div className=" flex items-center gap-1">
               <p>VI</p>
@@ -64,9 +62,9 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="flex h-10 cursor-pointer items-center gap-3 rounded-10 bg-[#1AD598] px-3 py-2">
+          <div className="flex h-10 cursor-pointer items-center gap-3 rounded-10 bg-turquoise-400 px-3 py-2">
             <p className="hidden font-bold capitalize sm:block">Trở thành khách hàng</p>
-            <div className="flex size-[22px] items-center justify-center rounded-full bg-black">
+            <div className="flex size-[22px] items-center justify-center rounded-full bg-black-900">
               <Image src={ArrowUpRightIcon} alt="ArrowUpRightIcon" className="size-[14px]" />
             </div>
           </div>
