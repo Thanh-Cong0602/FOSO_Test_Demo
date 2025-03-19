@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Pagination from "@/components/pagination";
 import { DATA_LIMIT } from "@/constants/number";
