@@ -29,7 +29,7 @@ const Pagination = ({ totalItems = 0, limit = DATA_LIMIT }: { totalItems?: numbe
     <div className="mx-auto flex w-full max-w-[1440px] items-center justify-between">
       <div className="flex w-1/3 justify-start">
         <button
-          className="flex items-center gap-2 rounded-lg bg-white px-3 py-2 text-base leading-1.5 text-gray-400 hover:bg-turquoise-200 disabled:cursor-not-allowed disabled:opacity-50"
+          className="flex items-center gap-2 rounded-lg bg-white-100 px-3 py-2 text-base leading-1.5 text-gray-400 hover:bg-turquoise-200 disabled:cursor-not-allowed disabled:opacity-50"
           onClick={() => onPageChange(currentPage - 1)}
           disabled={currentPage === 1}
         >
@@ -49,14 +49,14 @@ const Pagination = ({ totalItems = 0, limit = DATA_LIMIT }: { totalItems?: numbe
         containerClassName="flex items-center space-x-2"
         activeClassName="bg-turquoise-200 text-[#052B1E] rounded-lg"
         breakClassName="px-3 py-2 text-gray-400"
-        pageClassName="size-10 flex items-center justify-center text-[#809FB8] bg-white rounded-lg hover:bg-gray-200"
+        pageClassName="size-10 flex items-center justify-center text-[#809FB8] bg-white-100 rounded-lg hover:bg-gray-200"
         disabledClassName="opacity-50 cursor-not-allowed"
         pageLabelBuilder={(page: number) => (
           <div
             className={`flex size-10 items-center justify-center rounded-lg leading-1.5 transition duration-300 ${
               page === currentPage
                 ? "bg-turquoise-200 text-base font-semibold text-[#052B1E]"
-                : "bg-white text-black-200 hover:bg-gray-200"
+                : "bg-white-200 text-black-200 hover:bg-gray-200"
             }`}
           >
             {page}
@@ -66,7 +66,7 @@ const Pagination = ({ totalItems = 0, limit = DATA_LIMIT }: { totalItems?: numbe
 
       <div className="flex w-1/3 justify-end">
         <button
-          className="flex items-center gap-2 rounded-lg bg-white px-3 py-2 text-base leading-1.5 text-gray-400 hover:bg-turquoise-200 disabled:cursor-not-allowed disabled:opacity-50"
+          className="flex items-center gap-2 rounded-lg bg-white-100 px-3 py-2 text-base leading-1.5 text-gray-400 hover:bg-turquoise-200 disabled:cursor-not-allowed disabled:opacity-50"
           onClick={() => onPageChange(currentPage + 1)}
           disabled={currentPage === totalPages}
         >

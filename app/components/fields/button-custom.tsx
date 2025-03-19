@@ -10,7 +10,7 @@ const ButtonComponent = ({ text, width }: Readonly<ButtonComponentProps>) => {
   return (
     <div
       style={{ width: `${width}` }}
-      className=" border-2 border-white text-white rounded-[40px] px-6 py-2 w-fit h-[50px] flex items-center justify-between cursor-pointer gap-8"
+      className=" flex h-[50px] w-fit cursor-pointer items-center justify-between gap-8 rounded-10 border-2 border-white-100 px-6 py-2 text-white-100"
     >
       <p className=" capitalize">{text}</p>
       <Image src={ArrowUpRightIcon} alt="Icon" />
