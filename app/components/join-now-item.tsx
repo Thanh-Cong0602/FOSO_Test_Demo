@@ -13,7 +13,7 @@ const JoinNowItem = () => {
         <Image src={Banner2} alt="ExperienceImage" />
       </div>
 
-      <p className="text-white mx-auto max-w-[318px] text-xl font-bold leading-1.5">
+      <p className="mx-auto max-w-[318px] text-xl font-bold leading-1.5 text-white-100">
         Gia nhập cộng đồng FMRP Việt - Kết nối, chia sẻ, cùng phát triển!
       </p>
 
