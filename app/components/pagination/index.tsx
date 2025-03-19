@@ -22,7 +22,7 @@ const Pagination = ({ totalItems = 0, limit = DATA_LIMIT }: { totalItems?: numbe
   const onPageChange = (selectedPage: number) => {
     if (selectedPage < 1 || selectedPage > totalPages) return;
     const url = createPageURL(selectedPage);
-    // router.push(url);
+    router.push(url);
   };
 
   return (
