@@ -29,7 +29,7 @@ const Header = () => {
 
           <div>
             Cập Nhật Tin Tức{" "}
-            <div className="text-black relative inline-block w-fit font-bold leading-7 md:leading-[60px]">
+            <div className="relative inline-block w-fit font-bold leading-7 text-black-900 md:leading-[60px]">
               Mới Nhất
               <span className="absolute bottom-0 left-0 -z-10 h-3 w-full rounded-10 bg-[#A3EAC3] md:h-5"></span>
             </div>

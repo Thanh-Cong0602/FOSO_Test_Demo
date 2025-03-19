@@ -31,6 +31,7 @@ const config: Config = {
         },
         white: {
           200: "#E2F0FE",
+          100: "#FFFFFF",
         },
         black: {
           200: "#052B1E",
