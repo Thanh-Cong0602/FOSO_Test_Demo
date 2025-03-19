@@ -15,17 +15,17 @@ interface LeftBlogDetailsProps {
 }
 const LeftBlogDetails = ({ sections }: Readonly<LeftBlogDetailsProps>) => {
   return (
-    <div className="max-w-[900px] pr-6">
+    <div className="max-w-[900px] md:pr-6">
       <div className="grid gap-6">
         <div className="grid gap-4">
           <div className="w-fit rounded-lg bg-white-200 px-2 py-1 text-xs leading-1.5">
             <p className="text-blue-500">Quản Lý Sản Xuất</p>
           </div>
-          <p className="text-2xl md:text-4xl font-extrabold capitalize leading-none">
+          <p className="text-2xl font-extrabold capitalize leading-none md:text-4xl">
             Quy trình 5S là gì? Cách ứng dụng hiệu quả nên biết
           </p>
 
-          <div className="top-2 flex items-center flex-col md:flex-row justify-between">
+          <div className="top-2 flex flex-col items-center justify-between md:flex-row">
             <div className="flex items-center gap-2.5">
               <div className="flex size-16 items-center justify-center">
                 <Image src={FOSO_Logo_Pattern} alt="FOSO_Logo" />
@@ -60,14 +60,14 @@ const LeftBlogDetails = ({ sections }: Readonly<LeftBlogDetailsProps>) => {
 
           <div className=" relative w-full px-4 pb-2 pt-3 text-center">
             <Image src={QuoteLeftIcon} alt="QuoteLeftIcon" className=" absolute top-[-14px]" />
-            <p className="mx-auto max-w-[778px] text-lg md:text-xl font-medium italic leading-6 text-gray-300">
+            <p className="mx-auto max-w-[778px] text-lg font-medium italic leading-6 text-gray-300 md:text-xl">
               Chắc hẳn bạn đã từng nghe qua khái niệm về quy trình 5S là gì? Xây dựng 5S cần yếu tố gì? Bài
               viết dưới đây của FOSO sẽ trả lời cho bạn thông tin chi tiết về mô hình này cũng như yếu tố tạo
               nên thành công của quy trình bạn nhé.
             </p>
           </div>
 
-          <div className="grid gap-5 text-sm md:text-base text-black-300">
+          <div className="grid gap-5 text-sm text-black-300 md:text-base">
             <p ref={sections.s1} className=" text-xl font-extrabold leading-1.5 text-turquoise-300">
               1. Quy trình 5S là gì?
             </p>
@@ -119,12 +119,12 @@ const LeftBlogDetails = ({ sections }: Readonly<LeftBlogDetailsProps>) => {
 
           <div>
             <Image src={WhyChoose5S} alt="WhyChoose5S" />
-            <p className=" pt-2 text-center text-sm md:text-base font-normal leading-1.5 text-gray-500">
+            <p className=" pt-2 text-center text-sm font-normal leading-1.5 text-gray-500 md:text-base">
               Tại sao doanh nghiệp cần quy trình 5S?
             </p>
           </div>
 
-          <div className="grid gap-5 text-sm md:text-base text-black-300">
+          <div className="grid gap-5 text-sm text-black-300 md:text-base">
             <p ref={sections.s3} className=" text-xl font-extrabold leading-1.5 text-turquoise-300">
               3. Tại sao doanh nghiệp nên áp dụng quy trình 5S?
             </p>
@@ -190,12 +190,12 @@ const LeftBlogDetails = ({ sections }: Readonly<LeftBlogDetailsProps>) => {
 
           <div>
             <Image src={Procedure5S} alt="Procedure5S" />
-            <p className=" pt-2 text-center text-sm md:text-base font-normal leading-1.5 text-gray-500">
+            <p className=" pt-2 text-center text-sm font-normal leading-1.5 text-gray-500 md:text-base">
               Quy trình 5S gồm các bước
             </p>
           </div>
 
-          <div className="grid gap-5 text-sm md:text-base text-black-300">
+          <div className="grid gap-5 text-sm text-black-300 md:text-base">
             <p ref={sections.s4} className=" text-xl font-extrabold leading-1.5 text-turquoise-300">
               4. Quy trình 5S gồm các bước
             </p>
@@ -262,12 +262,12 @@ const LeftBlogDetails = ({ sections }: Readonly<LeftBlogDetailsProps>) => {
 
           <div>
             <Image src={ImplementationStep5S} alt="ImplementationStep5S" />
-            <p className=" pt-2 text-center text-sm md:text-base font-normal leading-1.5 text-gray-500">
+            <p className=" pt-2 text-center text-sm font-normal leading-1.5 text-gray-500 md:text-base">
               Các bước thực hiện quy trình 5s
             </p>
           </div>
 
-          <div className="grid gap-5 text-sm md:text-base text-black-300">
+          <div className="grid gap-5 text-sm text-black-300 md:text-base">
             <p ref={sections.s5} className=" text-xl font-extrabold leading-1.5 text-turquoise-300">
               5. Quy trình được thực hiện như sau:
             </p>
@@ -332,7 +332,7 @@ const LeftBlogDetails = ({ sections }: Readonly<LeftBlogDetailsProps>) => {
             </div>
           </div>
 
-          <div className="grid gap-5 text-sm md:text-base text-black-300">
+          <div className="grid gap-5 text-sm text-black-300 md:text-base">
             <p ref={sections.s6} className=" text-xl font-extrabold leading-1.5 text-turquoise-300">
               6. Quy trình 5S có giống với Kaizen?
             </p>
@@ -343,28 +343,28 @@ const LeftBlogDetails = ({ sections }: Readonly<LeftBlogDetailsProps>) => {
             </p>
           </div>
 
-          <div className=" border-l-[3px] border-solid border-turquoise-300 pt-3 pb-2 pr-4 pl-9">
-            <p className=" italic font-medium text-base md:text-xl">
+          <div className=" border-l-[3px] border-solid border-turquoise-300 pb-2 pl-9 pr-4 pt-3">
+            <p className=" text-base font-medium italic md:text-xl">
               Còn đối với quy tắc 5S, đây là một phương pháp quản lý và cải tiến trong sản xuất. 5S tập trung
               vào việc sắp xếp, sạch sẽ, sắp đặt, tiêu chuẩn hóa và kỷ luật trong môi trường làm việc.
             </p>
           </div>
 
-          <div className=" border-l-[3px] border-solid border-turquoise-300 pt-3 pb-2 pr-4 pl-9">
-            <p className=" italic font-medium text-base md:text-xl">
+          <div className=" border-l-[3px] border-solid border-turquoise-300 pb-2 pl-9 pr-4 pt-3">
+            <p className=" text-base font-medium italic md:text-xl">
               Còn đối với quy tắc 5S, đây là một phương pháp quản lý và cải tiến trong sản xuất. 5S tập trung
               vào việc sắp xếp, sạch sẽ, sắp đặt, tiêu chuẩn hóa và kỷ luật trong môi trường làm việc.
             </p>
           </div>
 
-          <p className="text-sm md:text-base leading-1.5 font-medium">
+          <p className="text-sm font-medium leading-1.5 md:text-base">
             Tuy nhiên, quy trình 5S được xem là một phần của Kaizen. Và quy tắc này đóng vai trò quan trọng
             trong việc tạo ra môi trường làm việc sạch sẽ, an toàn. Quy tắc 5S thường được sử dụng làm bước
             đầu tiên trong quá trình cải tiến liên tục của phương pháp Kaizen để tạo ra một nền tảng vững chắc
             cho các hoạt động cải tiến tiếp theo.
           </p>
 
-          <div className="grid gap-5 text-sm md:text-base text-black-300">
+          <div className="grid gap-5 text-sm text-black-300 md:text-base">
             <p ref={sections.s7} className=" text-xl font-extrabold leading-1.5 text-turquoise-300">
               7. Đối tượng nào nên áp dụng 5S?
             </p>
@@ -383,12 +383,12 @@ const LeftBlogDetails = ({ sections }: Readonly<LeftBlogDetailsProps>) => {
 
           <div>
             <Image src={Factors5S} alt="Factors5S" />
-            <p className=" pt-2 text-center text-sm md:text-base font-normal leading-1.5 text-gray-500">
+            <p className=" pt-2 text-center text-sm font-normal leading-1.5 text-gray-500 md:text-base">
               Các yếu tố tạo nên thành công cho quy trình 5S
             </p>
           </div>
 
-          <div className="grid gap-5 text-sm md:text-base text-black-300">
+          <div className="grid gap-5 text-sm text-black-300 md:text-base">
             <p ref={sections.s8} className=" text-xl font-extrabold leading-1.5 text-turquoise-300">
               8. Các yếu tố tạo nên thành công cho quy trình 5S
             </p>
@@ -423,14 +423,14 @@ const LeftBlogDetails = ({ sections }: Readonly<LeftBlogDetailsProps>) => {
 
           <div className="my-2 md:py-12">
             <div
-              className="py-6 grid items-center justify-center gap-6 rounded-6"
+              className="grid items-center justify-center gap-6 rounded-6 py-6"
               style={{
                 boxShadow: "0px 1px 2px 0px rgba(18, 18, 23, 0.06), 0px 1px 3px 0px rgba(18, 18, 23, 0.10)",
               }}
             >
-              <div className="text-gray-300 leading-1.5 text-center">
+              <div className="text-center leading-1.5 text-gray-300">
                 <p className=" text-xl font-extrabold">Bạn thấy bài viết như thế nào?</p>
-                <p className=" font-medium text-base">4 phản hồi</p>
+                <p className=" text-base font-medium">4 phản hồi</p>
               </div>
 
               <ReactionGroup />

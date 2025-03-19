@@ -7,7 +7,7 @@ import HomepageWrapper from "./homepage-wrapper";
 
 const HomepageComponent = () => {
   return (
-    <div className="mb-5 md:mb-10 grid md:gap-[96px]">
+    <div className="mb-5 grid md:mb-10 md:gap-[96px]">
       <Header />
       <HomepageWrapper />
       <Pagination totalItems={400} limit={DATA_LIMIT} />

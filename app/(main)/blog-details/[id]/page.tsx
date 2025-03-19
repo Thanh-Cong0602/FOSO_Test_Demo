@@ -35,7 +35,7 @@ const BlogDetails = () => {
   };
 
   return (
-    <div className="relative mx-auto mt-12 px-2 md:px-5 max-w-[1440px] lg:px-10 xl:px-0">
+    <div className="relative mx-auto mt-12 max-w-[1440px] px-2 md:px-5 lg:px-10 xl:px-0">
       <Breadcrumb
         items={[
           { name: "Trang chủ", href: "#" },
@@ -44,21 +44,23 @@ const BlogDetails = () => {
           { name: "Quản lý sản xuất", href: "#", isCurrentPage: true },
         ]}
       />
-
-      <div className="absolute top-[300px] left-[-40px]">
+      <div className="absolute left-[-40px] top-[300px] hidden xl:block">
         <SocialGroup />
       </div>
-
-      <div className="mt-[60px] flex-col items-start justify-center lg:flex-row flex lg:gap-6">
+      <div className="mt-[60px] flex flex-col items-start justify-center lg:flex-row lg:gap-6">
         <LeftBlogDetails sections={sections} />
         <RightBlogDetails sections={sections} />
       </div>
-      <div className="mt-6 mb-24 grid gap-6">
-        <p className="text-2xl md:text-4xl font-extrabold leading-2 capitalize">Bài viết liên quan</p>
-        <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+      <div className="mb-24 mt-6 grid gap-6">
+        <p className="text-2xl font-extrabold capitalize leading-2 md:text-4xl">Bài viết liên quan</p>
+        <div className="grid grid-flow-row grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
           <BlogItem />
           <BlogItem />
           <BlogItem />
+        </div>
+
+        <div className="block md:hidden">
+          <SocialGroup />
         </div>
       </div>
     </div>
