@@ -1,5 +1,5 @@
-import Banner2 from "@/public/images/Banner2.png";
-import ExperienceBg from "@/public/images/ExperienceBg.png";
+import Banner2 from "@/assets/images/Banner2.png";
+import ExperienceBg from "@/assets/images/ExperienceBg.png";
 import Image from "next/image";
 import ButtonComponent from "./fields/button-custom";
 

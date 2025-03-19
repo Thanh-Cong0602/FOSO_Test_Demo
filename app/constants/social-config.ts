@@ -1,9 +1,8 @@
-import ZaloIcon from "@/public/socials/Zalo.svg"
-import FacebookIcon from "@/public/socials/Facebook.svg"
-import LinkedInIcon from "@/public/socials/LinkedIn.svg"
-import TwitterIcon from "@/public/socials/Twitter.svg"
-import ChatbotIcon from "@/public/socials/Chatbox.svg";
-
+import ZaloIcon from "@/assets/socials/Zalo.svg";
+import FacebookIcon from "@/assets/socials/Facebook.svg";
+import LinkedInIcon from "@/assets/socials/LinkedIn.svg";
+import TwitterIcon from "@/assets/socials/Twitter.svg";
+import ChatbotIcon from "@/assets/socials/Chatbox.svg";
 
 export const SOCIAL_CONFIGS = [
   {

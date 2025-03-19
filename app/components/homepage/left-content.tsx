@@ -1,5 +1,5 @@
-import Banner from "@/public/images/Banner.png";
-import BannerImage from "@/public/images/BannerImage.png";
+import Banner from "@/assets/images/Banner.png";
+import BannerImage from "@/assets/images/BannerImage.png";
 import Image from "next/image";
 import BlogItem from "../blog-item";
 import ButtonComponent from "../fields/button-custom";
@@ -7,7 +7,9 @@ import ButtonComponent from "../fields/button-custom";
 const LeftContent = () => {
   return (
     <div className="grid w-full gap-6 lg:max-w-[1042px]">
-      <div className="text-2xl font-extrabold leading-6 text-black-500 md:text-4xl md:leading-2">Tất cả bài viết</div>
+      <div className="text-2xl font-extrabold leading-6 text-black-500 md:text-4xl md:leading-2">
+        Tất cả bài viết
+      </div>
 
       <div className=" grid gap-6 md:gap-12">
         <div

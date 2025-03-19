@@ -1,5 +1,5 @@
-import Saly_25 from "@/public/images/Saly-25.png";
-import Saly_42 from "@/public/images/Saly-42.png";
+import Saly_25 from "@/assets/images/Saly-25.png";
+import Saly_42 from "@/assets/images/Saly-42.png";
 import Image from "next/image";
 import Breadcrumb from "../fields/breadcrumb";
 const Header = () => {

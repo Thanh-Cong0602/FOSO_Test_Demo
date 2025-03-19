@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ArrowUpRightIcon from "@/public/ArrowUpRight.svg";
+import ArrowUpRightIcon from "@/assets/ArrowUpRight.svg";
 
 interface ButtonComponentProps {
   text: string;
