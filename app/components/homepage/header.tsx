@@ -22,7 +22,7 @@ const Header = () => {
           />
         </div>
 
-        <div className="text-center text-2xl font-normal capitalize leading-10 tracking-normal text-black-500 md:text-[64px] md:leading-[100px]">
+        <div className="text-center text-2xl font-normal capitalize leading-10 tracking-normal text-black-500 md:text-[64px] md:leading-25">
           <p>
             Blog <span className="font-extrabold text-[#53B086]">FOSO</span> -
           </p>

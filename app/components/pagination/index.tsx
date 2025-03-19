@@ -47,15 +47,15 @@ const Pagination = ({ totalItems = 0, limit = DATA_LIMIT }: { totalItems?: numbe
         previousLabel={null}
         nextLabel={null}
         containerClassName="flex items-center space-x-2"
-        activeClassName="bg-turquoise-200 text-[#052B1E] rounded-lg"
+        activeClassName="bg-turquoise-200 text-black-200 rounded-lg"
         breakClassName="px-3 py-2 text-gray-400"
-        pageClassName="size-10 flex items-center justify-center text-[#809FB8] bg-white-100 rounded-lg hover:bg-gray-200"
+        pageClassName="size-10 flex items-center justify-center text-gray-200 bg-white-100 rounded-lg hover:bg-gray-200"
         disabledClassName="opacity-50 cursor-not-allowed"
         pageLabelBuilder={(page: number) => (
           <div
             className={`flex size-10 items-center justify-center rounded-lg leading-1.5 transition duration-300 ${
               page === currentPage
-                ? "bg-turquoise-200 text-base font-semibold text-[#052B1E]"
+                ? "bg-turquoise-200 text-base font-semibold text-black-200"
                 : "bg-white-200 text-black-200 hover:bg-gray-200"
             }`}
           >

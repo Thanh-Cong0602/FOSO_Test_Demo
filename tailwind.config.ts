@@ -18,6 +18,7 @@ const config: Config = {
       lineHeight: {
         1.5: "150%",
         2: "200%",
+        25: "100px",
       },
       gap: {
         "2.5": "10px",

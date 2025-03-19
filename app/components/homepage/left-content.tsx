@@ -18,7 +18,7 @@ const LeftContent = () => {
         >
           <div className=" absolute left-5 top-[60px] z-50 md:left-[60px]">
             <div className=" grid items-center justify-start gap-8">
-              <p className="w-full text-2xl font-bold text-[#FFFFFF] md:w-[376px] md:text-4xl">
+              <p className="w-full text-2xl font-bold text-white-100 md:w-[376px] md:text-4xl">
                 Gia nhập cộng đồng FMRP - Kết nối, chia sẻ, cùng phát triển!
               </p>
               <ButtonComponent text="Tham gia ngay" />
