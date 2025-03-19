@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-const HomepageComponent = dynamic(() => import("@/components/homepage/page"), { ssr: false });
+const HomepageComponent = dynamic(() => import("@/components/homepage"), { ssr: false });
 import Navbar from "@/components/navbar/navbar";
 
 export default function Home() {
