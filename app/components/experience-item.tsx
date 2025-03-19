@@ -1,7 +1,7 @@
-import ExperienceBg from "@/public/images/ExperienceBg.png";
-import ExperienceImage1 from "@/public/images/ExperienceImage1.png";
-import MaskGroup from "@/public/images/MaskGroup.png";
-import MRPBeta from "@/public/images/MRPBeta.png";
+import ExperienceBg from "@/assets/images/ExperienceBg.png";
+import ExperienceImage1 from "@/assets/images/ExperienceImage1.png";
+import MaskGroup from "@/assets/images/MaskGroup.png";
+import MRPBeta from "@/assets/images/MRPBeta.png";
 import Image from "next/image";
 import ButtonComponent from "./fields/button-custom";
 

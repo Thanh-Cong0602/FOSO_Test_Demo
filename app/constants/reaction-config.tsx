@@ -1,9 +1,9 @@
-import GreenHeart from "@/public/images/reactions/GreenHeart.png";
-import ThumbsUp from "@/public/images/reactions/ThumbsUp.png";
-import StartStruck from "@/public/images/reactions/StarStruck.png";
-import HushedFace from "@/public/images/reactions/HushedFace.png";
-import YawningFace from "@/public/images/reactions/YawningFace.png";
-import PoutingFace from "@/public/images/reactions/PoutingFace.png";
+import GreenHeart from "@/assets/images/reactions/GreenHeart.png";
+import ThumbsUp from "@/assets/images/reactions/ThumbsUp.png";
+import StartStruck from "@/assets/images/reactions/StarStruck.png";
+import HushedFace from "@/assets/images/reactions/HushedFace.png";
+import YawningFace from "@/assets/images/reactions/YawningFace.png";
+import PoutingFace from "@/assets/images/reactions/PoutingFace.png";
 
 export const REACTION_CONFIGS = [
   {

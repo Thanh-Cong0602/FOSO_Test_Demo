@@ -1,10 +1,10 @@
 "use client";
 
 import { MENU_NAVBAR_CONFIGS } from "@/constants/navbar-config";
-import ArrowUpRightIcon from "@/public/ArrowUpRight.svg";
-import ChevronDownIcon from "@/public/CaretDown.svg";
-import FOSO_Logo from "@/public/images/FOSO_Logo.png";
-import Icon_Country from "@/public/images/Icon_country.png";
+import ArrowUpRightIcon from "@/assets/ArrowUpRight.svg";
+import ChevronDownIcon from "@/assets/CaretDown.svg";
+import FOSO_Logo from "@/assets/images/FOSO_Logo.png";
+import Icon_Country from "@/assets/images/Icon_country.png";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { MobileNavbar } from "./mobile-navbar";

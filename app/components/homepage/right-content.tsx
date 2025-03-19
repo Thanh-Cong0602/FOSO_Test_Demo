@@ -1,6 +1,6 @@
 "use client";
 
-import MagnifyingGlassIcon from "@/public/MagnifyingGlass.svg";
+import MagnifyingGlassIcon from "@/assets/MagnifyingGlass.svg";
 import Image from "next/image";
 import ExperienceItem from "../experience-item";
 import JoinNowItem from "../join-now-item";
